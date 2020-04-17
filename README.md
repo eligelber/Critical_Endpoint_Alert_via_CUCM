@@ -1,4 +1,4 @@
-# Critical_Endpoint_Alert_via_CUCM
+# Critical Endpoint Alert via CUCM
 
 Critical Alert on Endpoint Issue
 
