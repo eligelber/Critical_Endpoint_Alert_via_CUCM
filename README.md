@@ -19,7 +19,7 @@ The application programming interfaces of  *CUCM* - *ServiceNow* - *Webex Teams*
 
 ### Cisco Products Technologies/ Services
 
-Our solution will leverage the following Cisco technologies:
+Our solution leverages the following Cisco technologies:
 
 * [Cisco Unified Communicatons Manager (CUCM)](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html)
 * [ServiceNow](https://www.servicenow.com/)
