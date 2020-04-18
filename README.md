@@ -17,7 +17,7 @@ Our project uses programmability and automation to monitor a Customer's critical
 
 The application programming interfaces of  *CUCM* - *ServiceNow* - *Webex Teams* were utilized to create this automated process.
 
-### Cisco and non-Cisco Products Technologies/ Services
+### Cisco and non-Cisco Products Technologies / Services
 
 Our solution leverages the following Cisco and non-Cisco technologies:
 
