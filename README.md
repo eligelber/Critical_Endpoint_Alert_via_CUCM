@@ -1,6 +1,6 @@
 # Critical Endpoint Alert via CUCM
 
-Critical Alert on Endpoint Issue
+*ServiceNow* case created and *Webex Teams* message sent upon *CUCM* reported issue with a critical phone or video device
 
 
 ## Business/Technical Challenge
