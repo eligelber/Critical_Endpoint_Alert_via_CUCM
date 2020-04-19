@@ -33,27 +33,59 @@ Our solution leverages the following Cisco and non-Cisco technologies:
 
 ## Solution Components
 
-
-<!-- This does not need to be completed during the initial submission phase  
-
-Provide a brief overview of the components involved with this project. e.g Python /  -->
-
+* node.js
+* Botkit framework
+* ngrok
+* ServiceNow developer instance
+* Cisco DevNet 
+* CUCM
+* Cisco endpoints
 
 ## Usage
 
-<!-- This does not need to be completed during the initial submission phase  
-
-Provide a brief overview of how to use the solution  -->
+[![Critical Endpoint Alert](http://img.youtube.com/vi/ufbUg578HX4/0.jpg)](http://www.youtube.com/watch?v=ufbUg578HX4)
 
 
 ## Installation
 
-How to install or setup the project for use.
+1. Clone this repo:
 
+    ```sh
+    git clone https://github.com/eligelber/Critical_Endpoint_Alert_via_CUCM.git
+    ```
+
+1. Install the Node.js dependencies:
+
+    ```sh
+    npm install
+    ```
+
+1. Create two Webex Teams bot accounts at [Webex for Developers](https://developer.webex.com/my-apps/new/bot). One for interactions with CUCM and ServiceNow. The other to send messages from ServiceNow to Webex Teams.
+
+1. Create a ServiceNow developer instance and load the ServiceNow app.   Instructions are in the [SNOW-WebexTeams-Infrastructure repo](https://github.com/pselker2/SNOW-WebexTeams-Infrastructure)
+
+1. Download and Launch [ngrok](https://botkit.ai/getstarted.html) to expose port 3000 of your local machine to the internet:
+
+    ```sh
+    ngrok http 3000
+    ```
+1. Rename the `dot-env-file` file to `.env`, then edit for the settings of your bot.
+
+1. Run the bot:
+
+    ```sh
+    node bot.js
+    ```
+
+1. Use the help command in the bot for additional infomation.
 
 ## Documentation
 
-Pointer to reference documentation for this project.
+* [Botkit](https://botkit.ai/getstarted.html)
+* [ngrok](https://botkit.ai/getstarted.html)
+* [Create ServiceNow app to host bot](https://github.com/pselker2/SNOW-WebexTeams-Infrastructure)
+* [Cisco DevNet](https://developer.cisco.com/)
+
 
 
 ## License

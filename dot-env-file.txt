@@ -1,0 +1,34 @@
+# Webex Teams bot account access token
+
+webex_bot_access_token=paste-bot-access-token-here
+
+# Internet facing URL where your bot can be reached for incoming webhooks or
+# HTTP web server requests.  
+
+public_address=https://7a822a57.ngrok.io-example
+
+# Use websockets instead of webhooks for incoming Webex events (True/False)
+
+WEBSOCKET_EVENTS=False
+
+WEBEX_LOG_LEVEL=error
+
+# Bot meta info - displayed when browsing the bot healthcheck/public URL
+
+PLATFORM=Webex
+CODE=https://github.com/...
+#OWNER=
+#SUPPORT=
+
+# CUCM information
+
+CUCM_ADDRESS=a.b.c.d
+RIS_USER=axluser1
+RIS_PASSWORD=cisco123
+
+#SNOW values
+
+devInstance=dev12345
+table=x_123456_example
+snow_username=admin
+snow_password=SNOW-admin-password
