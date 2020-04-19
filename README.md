@@ -64,7 +64,7 @@ Our solution leverages the following Cisco and non-Cisco technologies:
 
 1. Create a ServiceNow developer instance and load the ServiceNow app.   Instructions are in the [SNOW-WebexTeams-Infrastructure repo](https://github.com/pselker2/SNOW-WebexTeams-Infrastructure)
 
-1. Download and Launch [ngrok](https://botkit.ai/getstarted.html) to expose port 3000 of your local machine to the internet:
+1. Download and Launch [ngrok](https://ngrok.com) to expose port 3000 of your local machine to the internet:
 
     ```sh
     ngrok http 3000
@@ -82,7 +82,7 @@ Our solution leverages the following Cisco and non-Cisco technologies:
 ## Documentation
 
 * [Botkit](https://botkit.ai/getstarted.html)
-* [ngrok](https://botkit.ai/getstarted.html)
+* [ngrok](https://ngrok.com)
 * [Create ServiceNow app to host bot](https://github.com/pselker2/SNOW-WebexTeams-Infrastructure)
 * [Cisco DevNet](https://developer.cisco.com/)
 
